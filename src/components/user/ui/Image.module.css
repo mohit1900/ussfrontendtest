@@ -1,0 +1,65 @@
+.container {
+  width: 200px;
+  height: 250px;
+  margin: 24px;
+  box-shadow: 1px 1px 10px 1px black;
+}
+
+.title {
+  height: 10%;
+  width: 100%;
+}
+
+.imageView {
+  max-height: 70%;
+  max-width: 100%;
+  cursor: pointer;
+  border-bottom: 2px solid black;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  object-fit: fill;
+  margin: auto;
+  /* border: 1px solid black; */
+}
+
+.buttons {
+  display: flex;
+  width: 100%;
+  height: 20%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.deleteButton {
+  background-color: red;
+  color: white;
+  border-radius: 12px;
+  height: 60%;
+  padding: 4px 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.downloadButton {
+  background-color: rgb(75, 236, 0);
+  color: white;
+  border-radius: 12px;
+  height: 60%;
+  padding: 4px 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.deleteButton:hover {
+  background-color: rgb(174, 0, 0);
+}
+
+.downloadButton:hover {
+  background-color: rgb(54, 172, 0);
+}
+
+.imageView:hover {
+  transform: scale(1.05);
+}

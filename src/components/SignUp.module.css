@@ -1,0 +1,136 @@
+.background {
+  background: url("../../public/images/background3.jpg");
+  background-size: cover;
+  border: none;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.blur {
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(4px);
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+}
+
+.signupForm {
+  width: 40%;
+  height: 85%;
+  background-color: rgba(255, 255, 255, 0.4);
+  border-radius: 36px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.heading {
+  color: black;
+  font-size: 26px;
+  font-weight: 600;
+  margin: 24px auto;
+}
+
+.container2 {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-y: auto;
+  margin: 1px 0;
+}
+
+.name_text,
+.email_text,
+.password_text {
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+}
+
+.name_input,
+.email_input,
+.password_input {
+  outline: none;
+  border: none;
+  background: none;
+  border-bottom: 1px solid black;
+  padding: 4px;
+  font-size: 16px;
+  color: black;
+}
+
+.fileUploadContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fileText {
+  font-weight: 550;
+  margin: 6px;
+}
+
+.signUpButton {
+  outline: none;
+  border: none;
+  margin: 36px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.4);
+  color: rgb(237, 237, 237);
+  background-color: rgb(0, 30, 119);
+}
+
+.container3 {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  margin-bottom: 6px;
+}
+
+.loginButton {
+  font-weight: 550;
+  margin: 0 4px;
+}
+
+.signUpButton:hover {
+  color: rgb(194, 194, 194);
+  background-color: rgb(43, 96, 255);
+  cursor: pointer;
+}
+
+.loginButton:hover {
+  cursor: pointer;
+  border-bottom: 2px solid black;
+}
+
+@media (min-width: 801px) and (max-width: 1200px) {
+  .signupForm {
+    width: 60%;
+  }
+}
+@media (min-width: 601px) and (max-width: 800px) {
+  .signupForm {
+    width: 70%;
+  }
+}
+@media (min-width: 200px) and (max-width: 600px) {
+  .signupForm {
+    width: 85%;
+  }
+}

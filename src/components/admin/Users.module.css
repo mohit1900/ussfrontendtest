@@ -1,0 +1,35 @@
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading {
+  font-weight: 700;
+  font-size: 20px;
+  margin: 24px 0;
+  border-bottom: 4px solid black;
+}
+
+.listContainer {
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  height: 550px;
+}
+
+@media (min-width: 801px) and (max-width: 1200px) {
+  .listContainer {
+    width: 75%;
+  }
+}
+
+@media (max-width: 800px) {
+  .listContainer {
+    width: 95%;
+  }
+}

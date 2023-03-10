@@ -1,0 +1,59 @@
+.container {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 8px 6px -6px black;
+}
+
+.menuButton {
+  border-radius: 24px;
+  border: none;
+  background-color: white;
+  margin: 0 4px;
+  cursor: pointer;
+  padding: 4px 10px;
+}
+
+.imageIcon {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.heading {
+  font-weight: 750;
+  font-size: 32px;
+  margin: auto;
+  transform: scale(1.2);
+}
+
+.profile {
+  border-radius: 50%;
+  margin: 0 4px;
+}
+.profileImage {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  object-fit: cover;
+}
+
+.profile:hover,
+.menuButton:hover {
+  box-shadow: 1px 2px 5px 1px black;
+}
+
+@media (max-width: 600px) {
+  .imageIcon {
+    width: 40px;
+    height: 40px;
+  }
+  .heading {
+    transform: scale(1);
+  }
+  .profileImage {
+    width: 60px;
+    height: 60px;
+  }
+}
