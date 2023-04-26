@@ -17,4 +17,4 @@ const store = configureStore({
 
 export default store;
 // export const url = "http://localhost:4000/api/v1/";
-export const url = "https://ussnodejs-production.up.railway.app/api/v1/";
+export const url = "https://ussbackend-production.up.railway.app//api/v1/";
